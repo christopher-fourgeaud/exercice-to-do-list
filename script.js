@@ -5,7 +5,8 @@ function main () {
 	
 		var input = $('#myInput').val();
 
-		$(".list-taches").append($("<li>").append(input));
+		$("#the-list").append($("<li><div><button>Tâche terminée</button></div>").append(input));
+		
 	});
 
 
