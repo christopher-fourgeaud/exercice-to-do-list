@@ -1,0 +1,97 @@
+body {
+background-color: #F5F5F5;
+}
+
+.titre-list {					/* Contient le titre de la to-do list*/
+	border-radius: 25px 0px;
+	display: flex;
+	justify-content: center;
+	font-family: Open sans;
+	font-size: 2em;
+	background-color:#99cc00 ;
+	font-weight: bold;
+	border: 4px outset;
+	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.55);
+
+
+
+}
+
+.add-filter {					/* Englobe : tâches / bouton / selecteur de filtres; */
+	font-family: Open sans;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: flex;
+	justify-content: center;
+	border-radius: 25px 0px;
+	background-color: #99cc00;
+	border: 4px outset;
+}
+
+#myImput {                     /* Ajouter une tâche */
+	border-style: solid;
+	font-family: Open sans;
+	font-size: 1.7em;
+	margin-left: 1em;
+	border: ridge #ffb31a;
+}
+
+.bouton {						/* Bouton ajouter */
+	border-style: solid;
+	font-family: Open sans;
+	margin-right: 1em;
+	font-size: 1.7em;
+	margin-left: 1px;
+	border-radius: 5px;
+	border: ridge #ffb31a;
+	color: #331a00;
+	border-radius: 5px;
+	border: ridge #ffb31a;
+	background-color: #ffb31a;
+}
+
+#select {						/* Selecteur de filtres */
+	border-style: solid;
+	border-color: black;
+	font-family: Open sans;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-size: 1.7em;
+	border-radius: 5px;
+	border: ridge #ffb31a;
+	background-color: #ffb31a;
+	color: #331a00;
+}
+
+
+.list-taches {
+	border-style: solid;
+	font-family: Open sans;
+	border-radius: 25px 0px;
+	background-color: #99cc00;
+	border: 4px outset;
+
+
+}
+
+.list-taches ol {
+	border-style: solid;
+	border-radius: 2em;
+	margin-left: 4em;
+	margin-right: 4em;
+	padding : 2em 2em 2em 2em;
+	font-family: Open sans;
+	border: 2px double  #222211;
+	background-color: #F5F5F5;
+
+}
+
+li {
+		font-size: 2em;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		font-weight: bold;
+		font-family: 'Amatic SC', cursive;
+}
